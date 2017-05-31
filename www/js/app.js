@@ -16,7 +16,7 @@ angular.module('starter', ['ionic'])
     $scope.turnLight = function(){
       $scope.color = $('#selectedColor').val();
       console.log($scope.color);
-      var request = "http://"+$scope.endpoint+"/LED-"+$scope.color.substr(1);
+      var request = "https://"+$scope.endpoint+"/LED-"+$scope.color.substr(1);
       
       $http.get(request).success(function(response){
         
