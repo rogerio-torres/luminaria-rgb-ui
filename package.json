@@ -11,7 +11,7 @@
     "http-server": "^0.9.0"
   },
   "scripts": {
-    "serve": "http-server www"
+    "serve": "http-server www -p $PORT"
   },
   "devDependencies": {
     "bower": "^1.3.3",
